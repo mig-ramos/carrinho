@@ -1,14 +1,23 @@
+import { createBrowserRouter } from "react-router-dom";
+import { Home } from "./pages/home";
+import { Cart } from "./pages/cart";
 
-function App() {
-  return (
-    <>
-      <div>
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-      </div>
-    </>
-  );
-}
+import { Layout } from "./components/layout";
 
-export default App;
+const router = createBrowserRouter([
+  {
+    element: <Layout />,
+    children: [
+      {
+        path: "/",
+        element: <Home />,
+      },
+      {
+        path: "/cart",
+        element: <Cart />,
+      },
+    ],
+  },
+]);
+
+export { router };

@@ -18,4 +18,5 @@ This template provides a minimal setup to get React working in Vite with HMR and
     <h1 className="text-3xl font-bold underline">
       Hello world!
     </h1>
+8. npm instal react-icons
     
