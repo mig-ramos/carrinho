@@ -21,6 +21,8 @@ This template provides a minimal setup to get React working in Vite with HMR and
 8. npm instal react-icons
 9.  sudo npm install -g json-server  //Um servidor de API fake.
 10. json-server --watch db.json  //Abrir outro cmd e rodar o servidor: http://localhost:3000/products
+
 11. npm install axios    // Para consultar a API
 12. npm install react-hot-toast
+13. No servidor fake de API, temos o detalhe do produto: http://localhost:3000/products/4
     
