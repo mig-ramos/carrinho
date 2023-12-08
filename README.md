@@ -19,4 +19,7 @@ This template provides a minimal setup to get React working in Vite with HMR and
       Hello world!
     </h1>
 8. npm instal react-icons
+9.  sudo npm install -g json-server  //Um servidor de API fake.
+10. json-server --watch db.json  //Abrir outro cmd e rodar o servidor: http://localhost:3000/products
+11. npm install axios    // Para consultar a API
     
